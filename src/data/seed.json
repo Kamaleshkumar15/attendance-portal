@@ -1,0 +1,77 @@
+{
+  "students": [
+    {
+      "id": "stu-001",
+      "name": "Sowmithra",
+      "grade": "Grade 10",
+      "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "stu-002",
+      "name": "Shiva",
+      "grade": "Grade 11",
+      "avatar": "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "stu-003",
+      "name": "Kaviya",
+      "grade": "Grade 12",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+    },
+    {
+      "id": "stu-004",
+      "name": "Kamaleshkumar",
+      "grade": "Grade 9",
+      "avatar": "https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=400&q=80"
+    }
+  ],
+  "attendanceEntries": [
+    {
+      "id": "att-001",
+      "studentId": "stu-001",
+      "status": "present",
+      "date": "2025-01-03",
+      "time": "08:05",
+      "notes": "On time"
+    },
+    {
+      "id": "att-002",
+      "studentId": "stu-002",
+      "status": "absent",
+      "date": "2025-01-03",
+      "time": "08:05",
+      "notes": "Flu"
+    },
+    {
+      "id": "att-003",
+      "studentId": "stu-003",
+      "status": "od",
+      "date": "2025-01-02",
+      "time": "07:55",
+      "notes": "Science Olympiad"
+    }
+  ],
+  "odRequests": [
+    {
+      "id": "od-001",
+      "studentId": "stu-003",
+      "destination": "City Science Center",
+      "startDate": "2025-01-02",
+      "endDate": "2025-01-04",
+      "status": "approved"
+    }
+  ],
+  "monthlyReports": [
+    {
+      "id": "rep-2025-01",
+      "month": "2025-01",
+      "presentCount": 58,
+      "absentCount": 6,
+      "odCount": 4,
+      "generatedAt": "2025-01-31T17:00:00.000Z",
+      "notes": "January report",
+      "status": "published"
+    }
+  ]
+}
+
